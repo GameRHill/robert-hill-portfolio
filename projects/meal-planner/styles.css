@@ -1,0 +1,99 @@
+
+/*
+ ██████╗███████╗███████╗    ███████╗████████╗██╗   ██╗██╗     ███████╗███████╗
+██╔════╝██╔════╝██╔════╝    ██╔════╝╚══██╔══╝╚██╗ ██╔╝██║     ██╔════╝██╔════╝
+██║     ███████╗███████╗    ███████╗   ██║    ╚████╔╝ ██║     █████╗  ███████╗
+██║     ╚════██║╚════██║    ╚════██║   ██║     ╚██╔╝  ██║     ██╔══╝  ╚════██║
+╚██████╗███████║███████║    ███████║   ██║      ██║   ███████╗███████╗███████║
+ ╚═════╝╚══════╝╚══════╝    ╚══════╝   ╚═╝      ╚═╝   ╚══════╝╚══════╝╚══════╝
+                                                                              */
+
+/* Add a height to the body element */
+body {
+  height: 100vh; /* Set the height to the full viewport height */
+  overflow: hidden; /* Hide the scroll bars */
+}
+
+/* Style the section element */
+section {
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center the section element vertically within its parent element */
+}
+/* Add some styling to the table */
+div {
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center the div vertically within its parent element */
+  text-align: center; /* Center the content horizontally */
+}
+table {
+  border-collapse: collapse; /* Remove the default border between table cells */
+  width: 100%; /* Make the table take up the full width of the container */
+  margin-top: 60px; /* Add 20 pixels of space between the h1 element and the table */
+}
+.tableTitle {
+  position: absolute;
+  top: 20px; /* Position the h1 element 20 pixels from the top of the page */
+}
+/* Style the table cells */
+td, th {
+  border: 1px solid #ddd; /* Add a border to the cells */
+  padding: 8px; /* Add some padding to the cells */
+}
+/* Style the text box to extend 90% */
+td input[type="text"] {
+  width: 90%; /* Set the width of the input box to 90% */
+  box-sizing: border-box; /* Include the padding and border in the width */
+}
+/* Style the table headers */
+th {
+  font-weight: bold; /* Make the text bold */
+}
+
+/* Style the first header row */
+th.first-row {
+  background-color: #f2f2f2; /* Add a light gray background color */
+}
+
+/* Style the second header row */
+th.second-row {
+  background-color: #e0e0e0; /* Add a slightly darker gray background color */
+}
+
+/* Add a border around each day */
+th.first-row {
+  border: 1px solid #999; /* Add a border around the header cell */
+}
+
+/* Add a border around each day */
+td, th.second-row {
+  border-left: 1px solid #999; /* Add a border to the left of the cell */
+  border-right: 1px solid #999; /* Add a border to the right of the cell */
+}
+
+/* Form centered on page */
+centered {
+  display: flex; /* Enable flexbox layout */
+  align-items: center; /* Center the div vertically within its parent element */
+  text-align: center; /* Center the content horizontally */
+  justify-content: center; /* Center the div horizontally within its parent element */
+  width: 80%; /* Set a fixed width for the div */
+  margin: 0 auto; /* Center the div horizontally within its parent element */
+}
+
+/* Style the "Find a New Recipe" buttons */
+button {
+  background-color: #4caf50; /* Add a green background color */
+  border: none; /* Remove the default border */
+  color: white; /* Make the text white */
+  padding: 8px 16px; /* Add some padding to the button */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove the underline from the text */
+  display: inline-block; /* Make the button inline-block */
+  font-size: 16px; /* Increase the font size */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Change the color of the button on hover */
+button:hover {
+  background-color: #3e8e41;
+}

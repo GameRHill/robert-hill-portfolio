@@ -1,0 +1,5 @@
+Why would you override a method of a base class?Why would you override a method of a base class?
+A)  to define a method that must be implemented in a superclass onlyto define a method that must be implemented in a superclass only
+B)  to define a custom implementation of an inherited memberto define a custom implementation of an inherited member
+C)  to define a class that can be inherited fromto define a class that can be inherited from
+D)  to define a method that must be implemented in a derived classto define a method that must be implemented in a derived class

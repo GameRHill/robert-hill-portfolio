@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Meals by Week</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+
+    <section class="centered">
+      <h1>Weekly Meal Planner</h1>
+      <form method="POST" action="create-grocery-list.php">
+        <div style="width: 100vh; margin: 0 auto;">
+          <form action="/submit-meal-plan" method="post">
+<table>
+  <tr>
+    <th>Time</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    <th>Sunday</th>
+  </tr>
+  <tr>
+    <th>Breakfast</th>
+    <td><input type="text" name="monday-breakfast" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="tuesday-breakfast" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="wednesday-breakfast" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="thursday-breakfast" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="friday-breakfast" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="saturday-breakfast" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="sunday-breakfast" placeholder="Enter a recipe or ingredient"></td>
+  </tr>
+  <tr>
+    <th>Lunch</th>
+    <td><input type="text" name="monday-lunch" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="tuesday-lunch" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="wednesday-lunch" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="thursday-lunch" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="friday-lunch" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="saturday-lunch" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="sunday-lunch" placeholder="Enter a recipe or ingredient"></td>
+  </tr>
+  <tr>
+    <th>Dinner</th>
+    <td><input type="text" name="monday-dinner" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="tuesday-dinner" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="wednesday-dinner" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="thursday-dinner" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="friday-dinner" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="saturday-dinner" placeholder="Enter a recipe or ingredient"></td>
+    <td><input type="text" name="sunday-dinner" placeholder="Enter a recipe or ingredient"></td>
+
+        </div>
+        <div style="width: 20%; margin: 10px auto;">
+          <button type="submit">Make Grocery List</button>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script>
+  </script>
+</html>

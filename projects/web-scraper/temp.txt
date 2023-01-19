@@ -1,0 +1,109 @@
+
+
+
+
+Object-Oriented Programming (OOP) assessment
+
+
+
+
+    Object-Oriented Programming (OOP) assessment Q7/15
+  
+
+What is the most accurate example of the Liskov substitution principle?What is the most accurate example of the Liskov substitution principle?
+
+
+
+
+
+
+
+
+
+public class Car{
+}
+public class FlyingCars extends Car{
+public void fly(){}
+}
+public class Tesla FlyingCar{}
+public class Honda Car{} 
+
+
+
+
+
+
+
+public class Car{
+public void fly(){}
+}
+public class Tesla extends Car{}
+public class Honda extends Car{}
+
+
+
+
+
+
+
+public class Car{
+}
+public class FlyingCar extends Car{
+public void fly(){}
+}
+public class Tesla extends FlyingCar{}
+public class Honda extends Car{} 
+
+
+
+
+
+
+
+public class Car{
+public void fly(){}
+}
+public class Tesla Car{}
+public class Honda Car{}
+
+
+
+
+
+
+
+            Something wrong with this question?
+          
+
+            Give feedback
+          
+
+
+
+
+
+
+Current value: 7
+
+
+
+
+
+
+
+Q7/15
+
+
+01:27
+
+
+90 seconds remaining
+
+
+
+
+
+Next
+
+
+

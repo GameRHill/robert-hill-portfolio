@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Meals by Day</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      <h1 id="title">Instructions:</h1>
+      <p style="text-align: left">Meal Planner for days in a week: finds recipes for each day based upon multiple search criteria such as budget, type of food, and keywords. Results can be output into a grocery list that is organized by different sections of the grocery store with estimated prices included.</p>
+    </div>
+    <section class="centered">
+      <h1>Daily Meal Planner</h1>
+      <form method="POST" action="create-grocery-list.php">
+        <div style="width: 100vh; margin: 0 auto;">
+          <table>
+          <tr>
+            <th colspan="5" class="first-row">Monday</th>
+          </tr>
+          <tr>
+            <th class="second-row">Time</th>
+            <th class="second-row">Cuisine</th>
+            <th class="second-row">Dish</th>
+            <th class="second-row">Ingredients</th>
+            <th class="second-row"></th>
+          </tr>
+          <tr>
+            <td>Breakfast</td>
+            <td><select name="cuisine" id="cuisine">
+              <option value="Italian">Italian</option>
+              <option value="Mexican">Mexican</option>
+              <option value="Chinese">Chinese</option>
+              <option value="Thai">Thai</option>
+              <!-- Add more options as needed -->
+            </select></td>
+            <td><input type="text" name="monday-breakfast-meal" value="Eggs, bacon, toast"></td>
+            <td><input type="text" name="monday-breakfast-ingredients" value="Eggs, bacon, toast"></td>
+            <td><button type="button" onclick="findNewRecipe('breakfast')">Find a New Recipe</button></td>
+          </tr>
+          <tr>
+            <td>Lunch</td>
+            <td><select name="cuisine" id="cuisine">
+              <option value="Italian">Italian</option>
+              <option value="Mexican">Mexican</option>
+              <option value="Chinese">Chinese</option>
+              <option value="Thai">Thai</option>
+              <!-- Add more options as needed -->
+            </select></td>
+            <td><input type="text" name="monday-lunch-meal" value="Turkey sandwich, chips, fruit"></td>
+            <td><input type="text" name="monday-lunch-ingredients" value="Turkey sandwich, chips, fruit"></td>
+            <td><button type="button" onclick="findNewRecipe('lunch')">Find a New Recipe</button></td>
+          </tr>
+          <tr>
+            <td>Dinner</td>
+            <td><select name="cuisine" id="cuisine">
+              <option value="Italian">Italian</option>
+              <option value="Mexican">Mexican</option>
+              <option value="Chinese">Chinese</option>
+              <option value="Thai">Thai</option>
+              <!-- Add more options as needed -->
+            </select></td>
+            <td><input type="text" name="monday-dinner-meal" value="Grilled chicken, vegetables, rice"></td>
+            <td><input type="text" name="monday-dinner-ingredients" value="Grilled chicken, vegetables, rice"></td>
+            <td><button type="button" onclick="findNewRecipe('dinner')">Find a New Recipe</button></td>
+          </tr>
+          </table>
+        </div>
+        <div style="width: 20%; margin: 10px auto;">
+          <button type="submit">Make Grocery List</button>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script>
+  </script>
+</html>
